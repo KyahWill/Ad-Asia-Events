@@ -5,8 +5,8 @@
   <h1 class=" text-2xl text-primary">WORLD TRAVEL EXPO</h1>
  <hr class="hr">
   <ul class="flex items-center gap-9 font-normal">
-    <li class="text-white text-2xl cursor-pointer">About</li>
-    <li class="text-white text-2xl cursor-pointer">Partners</li>
+    <a href="/"> <li class="text-white text-2xl cursor-pointer">About</li> </a>
+    <a href="/Partners"><li class="text-white text-2xl cursor-pointer">Partners</li> </a>
     <li class="text-white text-2xl flex items-center gap-2 cursor-pointer">Events <img src={rightArrow} alt="arrow" class="w-3"></li>
     <li class="text-white text-2xl cursor-pointer">Contact Us</li>
   </ul>
