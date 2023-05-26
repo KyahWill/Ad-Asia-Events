@@ -1,7 +1,7 @@
 <script>
     import rightArrow from '../assets/images/icon.png'
 </script>
-<header class="bg-transparent h-20 flex items-center justify-between font-inika fixed top-0 left-0 w-screen px-24 z-10">
+<header class="bg-transparent h-20 flex items-center justify-between font-inika absolute  top-0 left-0 w-screen px-24 z-10">
   <h1 class=" text-2xl text-primary">WORLD TRAVEL EXPO</h1>
  <hr class="hr">
   <ul class="flex items-center gap-9 font-normal">
@@ -15,7 +15,7 @@
 
 <style>
     .hr {
-        position: fixed;
+        position: absolute;
         top: 80px;
         width: 1350px;
         left: 95px;

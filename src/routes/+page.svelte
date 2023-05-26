@@ -45,7 +45,6 @@
     <img src={event3} alt="" class="h-full">
     <img src={event4} alt="" class="h-full">
     <img src={event5} alt="" class="h-full">
-    <img src={event6} alt="" class="h-full">
   </div>
   <div class="flex h-96 px-24">
     <img src={Clark} alt="" class="w-1/2"/>
