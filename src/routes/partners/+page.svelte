@@ -12,6 +12,7 @@
   import write from "../../lib/assets/images/write.png";
 </script>
 
+<title>World Travel Expo Philippines - Explore the Best Travel Destinations</title>
 <Header />
 <Main />
 

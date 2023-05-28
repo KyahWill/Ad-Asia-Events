@@ -18,7 +18,7 @@
   import Clark from '../lib/assets/images/Clark 1.png'
   import Map from '../lib/assets/images/image 1.png'
 </script>
-
+<title>World Travel Expo Philippines - Explore the Best Travel Destinations</title>
 <Header />
 <Main />
 <About />
