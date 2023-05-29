@@ -7,7 +7,7 @@
   <ul class="flex items-center gap-9 font-normal">
     <a href="/"><li class="text-primary text-2xl cursor-pointer">About</li></a>
     <a href="/partners"><li class="text-primary text-2xl cursor-pointer">Partners</li> </a>
-    <li class="text-primary text-2xl flex items-center gap-2 cursor-pointer">Events <img src={rightArrow} alt="arrow" class="w-3"></li>
+    <a href="/events"><li class="text-primary text-2xl flex items-center gap-2 cursor-pointer">Events <img src={rightArrow} alt="arrow" class="w-3"></li></a>
     <li class="text-primary text-2xl cursor-pointer">Contact Us</li>
   </ul>
   <button class="text-primary bg-transparent border-2 border-primary font-inika text-2xl w-32 h-12 rounded-3xl leading-8">Register</button>
