@@ -17,6 +17,23 @@
   import event6 from '../lib/assets/images/Rectangle 16.png'
   import Clark from '../lib/assets/images/Clark 1.png'
   import Map from '../lib/assets/images/image 1.png'
+
+  const partner_img_url = [
+    '/images/partner_gmv.jpg',
+    '/images/partner_RCBC.png',
+    '/images/partner_mediacon.jpg',
+    '/images/partner_gea.jpg',
+    '/images/partner_bw.jpg',
+    '/images/partner_attap.jpg',
+    '/images/partner_a_planet.png',
+  ]
+
+  const events_img_url = [
+    '/images/logo_manila.png',
+    '/images/logo_north_luzon.png',
+    '/images/logo_south_mondanao.png',
+    '/images/logo_west_visayas.png',
+  ]
 </script>
 <title>World Travel Expo Philippines - Explore the Best Travel Destinations</title>
 <Header />
@@ -25,12 +42,10 @@
 <Benefits />
 <div class="flex flex-col items-center justify-center py-10 px-24">
   <h1 class="text-primary text-4xl mb-2">WORLD TRAVEL EXPO 2023 PARTNERS</h1>
-  <div class="flex w-full py-10 gap-6 items-center justify-center">
-    <img src={Sponsor1} alt="" class="h-56 w-56" />
-    <img src={Sponsor2} alt="" class="h-56 w-56" />
-    <img src={Sponsor3} alt="" class="h-56 w-56" />
-    <img src={Sponsor4} alt="" class="h-56 w-56" />
-    <img src={Sponsor5} alt="" class="h-56 w-56" />
+  <div class="flex flex-wrap w-3/4 py-10 gap-6 items-center justify-center">
+    {#each partner_img_url as img}
+    <img src={img} alt="" class="h-56 w-56 object-scale-down" />
+    {/each}
   </div>
   <button
     class="bg-primary text-white font-inika rounded-xl text-2xl px-5 py-1 mt-5"
@@ -40,11 +55,10 @@
 <div class="flex flex-col py-8 px-24 items-center bg-primary">
   <h1 class="text-white text-4xl mb-10">WORLD TRAVEL EXPO 2023 EVENTS</h1>
   <div class="flex items-center h-36 w-full px-24">
-    <img src={event1} alt="" class="h-full">
-    <img src={event2} alt="" class="h-full">
-    <img src={event3} alt="" class="h-full">
-    <img src={event4} alt="" class="h-full">
-    <img src={event5} alt="" class="h-full">
+    {#each events_img_url as event_image}
+
+      <img src={event_image} alt="" class="h-full">
+    {/each}
   </div>
   <div class="flex h-96 px-24">
     <img src={Clark} alt="" class="w-1/2"/>
